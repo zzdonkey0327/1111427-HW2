@@ -8,6 +8,7 @@ on:
 jobs:
   fetch-weather:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -22,3 +23,10 @@ jobs:
 
       - name: Run script
         run: python fetch_weather.py
+
+      - name: Upload weather.json
+        uses: actions/upload-artifact@v4
+        with:
+          name: weather-json
+          path: weather.json
+          if-no-files-found: error
