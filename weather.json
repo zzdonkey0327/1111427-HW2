@@ -1,0 +1,63 @@
+{
+  "location": {
+    "city": "Banqiao",
+    "latitude": 25.0104,
+    "longitude": 121.4684,
+    "timezone": "Asia/Taipei"
+  },
+  "weather": {
+    "latitude": 25.0,
+    "longitude": 121.5,
+    "generationtime_ms": 0.0635385513305664,
+    "utc_offset_seconds": 28800,
+    "timezone": "Asia/Taipei",
+    "timezone_abbreviation": "GMT+8",
+    "elevation": 10.0,
+    "current_units": {
+      "time": "iso8601",
+      "interval": "seconds",
+      "temperature_2m": "°C",
+      "weather_code": "wmo code"
+    },
+    "current": {
+      "time": "2026-04-06T20:15",
+      "interval": 900,
+      "temperature_2m": 24.2,
+      "weather_code": 3
+    },
+    "daily_units": {
+      "time": "iso8601",
+      "temperature_2m_max": "°C",
+      "temperature_2m_min": "°C"
+    },
+    "daily": {
+      "time": [
+        "2026-04-06",
+        "2026-04-07",
+        "2026-04-08",
+        "2026-04-09",
+        "2026-04-10",
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "temperature_2m_max": [
+        26.7,
+        24.8,
+        27.1,
+        29.7,
+        30.6,
+        30.4,
+        30.5
+      ],
+      "temperature_2m_min": [
+        20.9,
+        19.1,
+        19.0,
+        21.1,
+        22.4,
+        21.3,
+        22.8
+      ]
+    }
+  }
+}
